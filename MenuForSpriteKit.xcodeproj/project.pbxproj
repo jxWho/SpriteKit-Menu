@@ -16,7 +16,7 @@
 		CB237E1A1955A5C200B0C6BC /* MenuForSpriteKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB237E191955A5C200B0C6BC /* MenuForSpriteKitTests.swift */; };
 		CB237E251955A5D700B0C6BC /* KKMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB237E241955A5D700B0C6BC /* KKMenu.swift */; };
 		CB237E271955A60700B0C6BC /* KKMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB237E261955A60700B0C6BC /* KKMenuItem.swift */; };
-		CB237E291955A75D00B0C6BC /* README.MD in Sources */ = {isa = PBXBuildFile; fileRef = CB237E281955A75D00B0C6BC /* README.MD */; };
+		CB237E291955A75D00B0C6BC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CB237E281955A75D00B0C6BC /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,7 @@
 		CB237E191955A5C200B0C6BC /* MenuForSpriteKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuForSpriteKitTests.swift; sourceTree = "<group>"; };
 		CB237E241955A5D700B0C6BC /* KKMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKMenu.swift; sourceTree = "<group>"; };
 		CB237E261955A60700B0C6BC /* KKMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKMenuItem.swift; sourceTree = "<group>"; };
-		CB237E281955A75D00B0C6BC /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
+		CB237E281955A75D00B0C6BC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 		CB237DF41955A5C200B0C6BC = {
 			isa = PBXGroup;
 			children = (
-				CB237E281955A75D00B0C6BC /* README.MD */,
+				CB237E281955A75D00B0C6BC /* README.md */,
 				CB237E231955A5CD00B0C6BC /* Menu */,
 				CB237DFF1955A5C200B0C6BC /* MenuForSpriteKit */,
 				CB237E161955A5C200B0C6BC /* MenuForSpriteKitTests */,
@@ -232,7 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB237E291955A75D00B0C6BC /* README.MD in Sources */,
+				CB237E291955A75D00B0C6BC /* README.md in Sources */,
 				CB237E271955A60700B0C6BC /* KKMenuItem.swift in Sources */,
 				CB237E071955A5C200B0C6BC /* GameScene.swift in Sources */,
 				CB237E091955A5C200B0C6BC /* GameViewController.swift in Sources */,
