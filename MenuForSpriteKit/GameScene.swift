@@ -17,11 +17,20 @@ class GameScene: SKScene {
         myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
         
         self.addChild(myLabel)
+        
+        //Create a menu item
+        var item1 = KKMenuLabelItem(WithLableText: "Start", ItemMethod: {
+                println("click start")
+            })
+        var menu = KKMenu(items: [item1])
+        self.addChild(menu)
+        menu.alignItemVerticallyWithPadding(20.0)
     }
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         /* Called when a touch begins */
         
+        /*
         for touch: AnyObject in touches {
             let location = touch.locationInNode(self)
             
@@ -37,6 +46,7 @@ class GameScene: SKScene {
             
             self.addChild(sprite)
         }
+        */
     }
    
     override func update(currentTime: CFTimeInterval) {

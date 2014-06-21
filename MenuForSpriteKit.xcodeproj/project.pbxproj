@@ -14,6 +14,8 @@
 		CB237E0C1955A5C200B0C6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB237E0A1955A5C200B0C6BC /* Main.storyboard */; };
 		CB237E0E1955A5C200B0C6BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB237E0D1955A5C200B0C6BC /* Images.xcassets */; };
 		CB237E1A1955A5C200B0C6BC /* MenuForSpriteKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB237E191955A5C200B0C6BC /* MenuForSpriteKitTests.swift */; };
+		CB237E251955A5D700B0C6BC /* KKMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB237E241955A5D700B0C6BC /* KKMenu.swift */; };
+		CB237E271955A60700B0C6BC /* KKMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB237E261955A60700B0C6BC /* KKMenuItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		CB237E131955A5C200B0C6BC /* MenuForSpriteKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuForSpriteKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB237E181955A5C200B0C6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB237E191955A5C200B0C6BC /* MenuForSpriteKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuForSpriteKitTests.swift; sourceTree = "<group>"; };
+		CB237E241955A5D700B0C6BC /* KKMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKMenu.swift; sourceTree = "<group>"; };
+		CB237E261955A60700B0C6BC /* KKMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKMenuItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 		CB237DF41955A5C200B0C6BC = {
 			isa = PBXGroup;
 			children = (
+				CB237E231955A5CD00B0C6BC /* Menu */,
 				CB237DFF1955A5C200B0C6BC /* MenuForSpriteKit */,
 				CB237E161955A5C200B0C6BC /* MenuForSpriteKitTests */,
 				CB237DFE1955A5C200B0C6BC /* Products */,
@@ -113,6 +118,15 @@
 				CB237E181955A5C200B0C6BC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB237E231955A5CD00B0C6BC /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CB237E241955A5D700B0C6BC /* KKMenu.swift */,
+				CB237E261955A60700B0C6BC /* KKMenuItem.swift */,
+			);
+			name = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB237E271955A60700B0C6BC /* KKMenuItem.swift in Sources */,
 				CB237E071955A5C200B0C6BC /* GameScene.swift in Sources */,
 				CB237E091955A5C200B0C6BC /* GameViewController.swift in Sources */,
+				CB237E251955A5D700B0C6BC /* KKMenu.swift in Sources */,
 				CB237E031955A5C200B0C6BC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
